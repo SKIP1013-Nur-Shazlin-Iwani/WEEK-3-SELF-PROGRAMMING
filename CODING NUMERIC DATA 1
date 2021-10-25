@@ -1,0 +1,41 @@
+package numericData;
+
+class Exercise1 { //Exercise1 is class name
+
+	public static void main(String[] args) { //main method
+		// TODO Auto-generated method stub
+		int number1 = 11; //declare variable
+		int number2 = 22;
+		int number3 = 33;
+		int number4 = 44;
+		int number5 = 55;
+		double number6 = 66;
+		double number7 = 88;
+		float number8 = 99;
+		float number9 = 200;
+		int sum;
+		int average;
+		double div;
+		float div2;
+		double mul;
+		float mul2;
+		
+		sum = number1 + number2 + number3 + number4 + number5; //read sum
+		System.out.println("The sum is: " + sum); //prompt sum
+		average = sum/5;
+		System.out.println("The average is: " + average); //prompt average
+		div = number7/number6;
+		System.out.printf("The divide number is: %.2f " , div);
+		System.out.println();
+		div2 = number9/number8;
+		System.out.printf("The divide number is: %.2f " , div2);
+		System.out.println();
+		mul = number1*number2*number3*number4*number5*number6*number7*number8*number9;
+		System.out.printf("The multiply number is: %.2f " , mul);
+		System.out.println();
+		mul2 = (number1*number2)/number3;
+		System.out.printf("The total is: %.2f ", mul2);
+
+	}
+
+}
