@@ -1,0 +1,28 @@
+package numericData;
+
+class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double semester1 = 3.17;
+		double semester2 = 3.42;
+		String name = "NUR SHAZLIN IWANI BINTI SHARUDDIN";
+		String college = "KOLEJ MATRIKULASI PULAU PINANG";
+		String programme = "SCIENCE";
+		double sum;
+		double cgpa;
+		
+		System.out.println("NAME     : " + name);
+		System.out.println("COLLEGE  : " + college);
+		System.out.println("PROGRAMME: " + programme);
+		System.out.println();
+		System.out.println("SEMESTER 1 GPA: " + semester1);
+		System.out.println("SEMESTER 2 GPA: " + semester2);
+		sum = semester1+semester2;
+		cgpa = sum/2;
+		System.out.println("CGPA          : " + cgpa);
+		
+
+	}
+
+}
